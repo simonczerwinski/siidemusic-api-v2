@@ -47,7 +47,7 @@ app.use(cors());
 
 //trigger routes
 app.use("/", indexRouter);
-app.use("/login", authorizeUser);
+app.use("/api", authorizeUser);
 // app.use("/users", usersRouter);
 
 // catch 404 and forward to error handler
